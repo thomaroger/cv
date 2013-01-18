@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<experiences>
+	
+	<experience>
+		<begin>Octobre 2011</begin>
+		<ending></ending>
+		<position>Développeur Référent</position>
+		<company>e-TF1</company>
+		<location>Boulogne Billancourt</location>
+		<details>
+			<detail>Prise de décision dans les choix techniques</detail>
+			<detail>Chiffrage et aide à la conception des nouveaux projets</detail>
+			<detail>Entretien des nouveaux prestataires (développeur back)</detail>
+			<detail>Support technique auprès des développeurs</detail>
+			<detail>Revues de code</detail>
+			<detail>Développement de gros projet sous symfony 1.4 / 2 / framwork historique</detail>
+			<detail>Développement PHP 5.3</detail>
+			<detail>Mise en place de tests unitaires et fonctionnels</detail>
+		</details>
+	</experience>
+
+	<experience>
+		<begin>Décembre 2010</begin>
+		<ending>Octobre 2011</ending>
+		<position>Ingénieur études et développement</position>
+		<company>Solutec</company>
+		<location>Paris</location>
+		<details>
+			<detail>Mission chez e-TF1</detail>
+			<detail>Développement PHP 5.3</detail>
+			<detail>Développement sous symfony 1.4</detail>
+			<detail>Support technique auprès des développeurs</detail>
+		</details>
+	</experience>
+
+	<experience>
+		<begin>Septembre 2010</begin>
+		<ending>Novembre 2010</ending>
+		<position>Chef de projet / Développeur Référent</position>
+		<company>Leaders League</company>
+		<location>Paris</location>
+		<details>
+			<detail>Mise en place de processus pour la gestion de projet </detail>
+			<detail>Rédaction de cahier des charges et des spécifications</detail>
+			<detail>Chiffrage</detail>
+			<detail>Prise de décision des choix techniques</detail>
+			<detail>Management de 2 développeurs</detail>
+			<detail>Revue de code</detail>
+			<detail>Développement de sites internes sous symfony 1.4</detail>
+			<detail>Mise en place des déclarations CNIL et de la charte informatique</detail>
+		</details>
+	</experience>
+
+	<experience>
+		<begin>Septembre 2008</begin>
+		<ending>Aout 2010</ending>
+		<position>Développeur</position>
+		<company>Kernix</company>
+		<location>Paris</location>
+		<details>
+			<detail>Assistanat à la gestion de projet</detail>
+			<detail>Modelisation des bases de données</detail>
+			<detail>Développement Back en PHP 5 objet sous un framework interne</detail>
+			<detail>Developpement Front</detail>
+		</details>
+	</experience>
+
+	<experience>
+		<begin>Octobre 2007</begin>
+		<ending>Juillet 2008</ending>
+		<position>Développeur</position>
+		<company>Sedipar</company>
+		<location>Paris</location>
+		<details>
+			<detail>Développement Front et Back de site internet en PHP 4</detail>
+			<detail>Participation aux choix techniques</detail>
+			<detail>Administration des serveurs linux</detail>
+		</details>
+	</experience>
+
+	<experience>
+		<begin>Octobre 2006</begin>
+		<ending>Juillet 2007</ending>
+		<position>Gestionnaire de parc informatique</position>
+		<company>Saint Gobain</company>
+		<location>Saint Pierre les Nemours</location>
+		<details>
+			<detail>Gestion d'une centaine de poste informatique</detail>
+			<detail>Développement en ASP</detail>
+		</details>
+	</experience>
+	
+</experiences>

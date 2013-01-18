@@ -7,7 +7,7 @@ class Error
 
     public static $logs = array(self::LOG_ERROR => 'Erreur',
                                 self::LOG_WARNING => 'Avertissement',
-                                self::LOG_NOTICE => 'Notice');
+                                self::LOG_NOTICE => 'Information');
 
     private static $instance;
     public $code;

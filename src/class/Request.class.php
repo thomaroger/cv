@@ -12,6 +12,10 @@ class Request
          return self::$instance;
    }
 
+   public function debug(){
+    return $_REQUEST;
+   }
+
     public function getParameter($form, $name = null)
     {
         if (!empty($name)) {

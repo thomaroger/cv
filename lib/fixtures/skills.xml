@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+	
+	<group name="Programmation">
+		<skill>
+			<name>Symfony 1.4</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+		
+		<skill>
+			<name>Symfony 2</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+		
+		<skill>
+			<name>Zend</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>codeIgniter</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>HTML / xHTML</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>Script Shell</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>Ruby</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>C / C++</name>
+			<level>Notion</level>
+			<skin>error</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>.NET</name>
+			<level>Notion</level>
+			<skin>error</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>Java</name>
+			<level>Notion</level>
+			<skin>error</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>Python</name>
+			<level>Notion</level>
+			<skin>error</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>XML</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>false</actual>
+		</skill>
+	</group>
+
+	<group name="Bases de données">
+		<skill>
+			<name>MySQL</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+		
+		<skill>
+			<name>Oracle</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+	</group>
+
+	<group name="Javascript">
+		<skill>
+			<name>Mootools</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+		
+		<skill>
+			<name>Jquery</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>Prototype</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+	</group>
+
+	<group name="Gestionnaire de fichiers">
+		<skill>
+			<name>SVN</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+		
+		<skill>
+			<name>GIT</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>Github</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+	</group>
+
+
+	<group name="Modélisation">
+		<skill>
+			<name>Utilisation des design pattern</name>
+			<level>Avancé</level>
+			<skin>success</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>Merise</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+
+		<skill>
+			<name>UML</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>false</actual>
+		</skill>
+
+	</group>
+
+
+	<group name="Méthodes">
+		<skill>
+			<name>Agilité</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+	</group>
+
+
+</skills>

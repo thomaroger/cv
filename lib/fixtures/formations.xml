@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<formations>
+	
+	<formation>
+		<begin>Septembre 2007</begin>
+		<ending>Juillet 2010</ending>
+		<company>INSIA : Institut supérieur d'informatique appliqué</company>
+		<degree>Spécialité Système d'information et génie logiciel</degree>
+		<location>Paris</location>
+	</formation>
+
+	<formation>
+		<begin>Septembre 2005</begin>
+		<ending>Septembre 2007</ending>
+		<company>IUT : Institut universitaire de technologie</company>
+		<degree>DUT Génie informatique</degree>
+		<location>Fontainebleau</location>
+	</formation>
+
+	<formation>
+		<begin>Septembre 2002</begin>
+		<ending>Juin 2005</ending>
+		<company>Lycée Saint Aspais</company>
+		<degree>Bac Scientifique</degree>
+		<location>Melun</location>
+	</formation>
+
+</formations>

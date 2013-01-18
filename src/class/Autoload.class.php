@@ -20,6 +20,7 @@ class Autoload
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Error.class.php');
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Context.class.php');
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Controller.class.php');
+      $this->autoloadAnotherFile(WEBROOT.'/src/utils/XMLParser.class.php');
       require_once(WEBROOT.'/src/class/App.class.php');
   }
 
@@ -29,16 +30,24 @@ class Autoload
     $template = WEBROOT.'/apps/'.$apps.'/templates/'.$name.'Template.php';
     if (file_exists($controller) && file_exists($template)) {
       $this->autoloadAnotherFile($controller);
-      $db = $name."Controller";
-      $actionController = new $db();
+      $classController = $name."Controller";
+      $actionController = new $classController();
       $actionController->action();
-      $this->autoloadAnotherFile($template);
+      $app = App::getInstance();
+      $this->autoloadAnotherFile($template, $app);
+    }else{
+      header("HTTP/1.0 404 Not Found");
+      require_once(WEBROOT.'/src/templates/404.php');
     }
   }
 
-  public function autoloadAnotherFile($path)
+  public function autoloadAnotherFile($path, $app = null)
   {
       if (file_exists($path)) {
+        if(!empty($app)) {
+          $ctx = $app->getContext();
+          $err = $app->getError();
+        }
         require_once($path);
       }
   }

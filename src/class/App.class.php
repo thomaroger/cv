@@ -9,6 +9,9 @@ class App
   public $error;
   public $context;
 
+  public $isAsset = false;
+  public $path;
+
   private static $instance;
 
   public static function getInstance()
@@ -33,6 +36,7 @@ class App
   public function handleHeader()
   {
     if (file_exists(COMMONS_HEADER)) {
+      $path = $_SERVER['SCRIPT_URL'];
       require_once(COMMONS_HEADER);
     }
   }
@@ -44,18 +48,67 @@ class App
     }
   }
 
-  public function handleContent()
-  {
+  public function checkAsset(){
     $url = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
-    $path = explode('/' ,$url['path']);
-    $count = count($path);
-    if ($count == 3) {
-      $this->autoload->autoloadAction($path[1], $path[2]);
-    } else {
-      $this->autoload->autoloadAction(APP_DEFAULT, !empty($path[1]) ? $path[1] : ACTION_DEFAULT);
+    $this->path = explode('/' ,$url['path']);
+
+    $lastPath = array_slice($this->path, -1, 1);
+    if (preg_match('/.js$/', $lastPath[0], $match) 
+        || preg_match('/.css$/', $lastPath[0], $match)
+        || preg_match('/.png$/', $lastPath[0], $match)
+        || preg_match('/.xml$/', $lastPath[0], $match)) {
+      $this->handleAssets($match);
     }
   }
 
+  public function handleContent()
+  {
+    $count = count($this->path);
+    try{
+      if ($count == 3) {
+        $this->autoload->autoloadAction($this->path[1], $this->path[2]);
+      } else {
+        $this->autoload->autoloadAction(APP_DEFAULT, !empty($this->path[1]) ? $this->path[1] : ACTION_DEFAULT);
+      }
+    }catch(RuntimeException $e){
+      echo $e->getMessage();
+    }
+  }
+
+  public function handleAssets($match){
+    $this->setAsset(true);
+    $method = "render".ucfirst(str_replace('.', '', $match[0]));
+    $this->$method();
+  }
+
+  public function renderJs(){
+    header('Content-type: text/javascript');
+    readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
+  }
+  
+  public function renderCss(){
+    header('Content-type: text/css');
+    readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
+  }
+
+  public function renderPng(){
+    header('Content-type: image/png');
+    readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
+  }
+
+  public function renderXml(){
+    header('Content-type: application/xml');
+    readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
+  }
+
+  public function setAsset($asset){
+    $this->isAsset = $asset;
+  }
+
+  public function isAsset(){
+    return $this->isAsset;
+  }
+  
   public function getContext()
   {
       return $this->context;
