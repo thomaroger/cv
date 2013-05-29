@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <experiences>
-	
+
 	<experience>
 		<begin>Octobre 2011</begin>
 		<ending></ending>
@@ -11,6 +11,7 @@
 			<detail>Prise de décision dans les choix techniques</detail>
 			<detail>Chiffrage et aide à la conception des nouveaux projets</detail>
 			<detail>Entretien des nouveaux prestataires (développeur back)</detail>
+			<detail>Encadrement technique des développeurs</detail>
 			<detail>Support technique auprès des développeurs</detail>
 			<detail>Revues de code</detail>
 			<detail>Développement de gros projet sous symfony 1.4 / 2 / framwork historique</detail>
@@ -89,5 +90,5 @@
 			<detail>Développement en ASP</detail>
 		</details>
 	</experience>
-	
+
 </experiences>

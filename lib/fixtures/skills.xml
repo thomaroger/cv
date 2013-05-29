@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <skills>
-	
+
 	<group name="Programmation">
 		<skill>
 			<name>Symfony 1.4</name>
@@ -8,14 +8,14 @@
 			<skin>success</skin>
 			<actual>true</actual>
 		</skill>
-		
+
 		<skill>
 			<name>Symfony 2</name>
 			<level>Avancé</level>
 			<skin>success</skin>
 			<actual>true</actual>
 		</skill>
-		
+
 		<skill>
 			<name>Zend</name>
 			<level>Intermédiaire</level>
@@ -46,6 +46,13 @@
 
 		<skill>
 			<name>Ruby</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+
+		<skill>
+			<name>NodeJS</name>
 			<level>Intermédiaire</level>
 			<skin>warning</skin>
 			<actual>true</actual>
@@ -94,7 +101,7 @@
 			<skin>success</skin>
 			<actual>true</actual>
 		</skill>
-		
+
 		<skill>
 			<name>Oracle</name>
 			<level>Avancé</level>
@@ -110,7 +117,7 @@
 			<skin>warning</skin>
 			<actual>false</actual>
 		</skill>
-		
+
 		<skill>
 			<name>Jquery</name>
 			<level>Intermédiaire</level>
@@ -133,7 +140,7 @@
 			<skin>success</skin>
 			<actual>true</actual>
 		</skill>
-		
+
 		<skill>
 			<name>GIT</name>
 			<level>Avancé</level>
