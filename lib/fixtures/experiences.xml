@@ -9,15 +9,34 @@
 		<location>Boulogne Billancourt</location>
 		<details>
 			<detail>Prise de décision dans les choix techniques</detail>
+			<detail>Etude de la faisabilité technique d'une demande</detail>
 			<detail>Chiffrage et aide à la conception des nouveaux projets</detail>
 			<detail>Entretien des nouveaux prestataires (développeur back)</detail>
 			<detail>Encadrement technique des développeurs</detail>
 			<detail>Support technique auprès des développeurs</detail>
 			<detail>Revues de code</detail>
+			<detail>Gestion des mises en production</detail>
+			<detail>Garantit la qualité du projet sur la durée</detail>
+			<detail>Respect des normes et des standards</detail>
 			<detail>Développement de gros projet sous symfony 1.4 / 2 / framwork historique</detail>
 			<detail>Développement PHP 5.3</detail>
 			<detail>Mise en place de tests unitaires et fonctionnels</detail>
+			<detail>Organisation de l'animation technique (Coding Game, Atelier)</detail>
 		</details>
+		<tags>
+			<tag>Symfony 2.x</tag>
+			<tag>Symfony 1.4</tag>
+			<tag>PHP 5</tag>
+			<tag>ruby</tag>
+			<tag>script shell</tag>
+			<tag>Javascript</tag>
+			<tag>JQuery</tag>
+			<tag>Revue de code</tag>
+			<tag>Management</tag>
+			<tag>Scrum</tag>
+			<tag>Windows Seven</tag>
+			<tag>Linux</tag>
+		</tags>
 	</experience>
 
 	<experience>
@@ -32,6 +51,15 @@
 			<detail>Développement sous symfony 1.4</detail>
 			<detail>Support technique auprès des développeurs</detail>
 		</details>
+		<tags>
+			<tag>Symfony 1.4</tag>
+			<tag>PHP 5</tag>
+			<tag>script shell</tag>
+			<tag>Javascript</tag>
+			<tag>JQuery</tag>
+			<tag>Windows XP</tag>
+			<tag>Linux</tag>
+		</tags>
 	</experience>
 
 	<experience>
@@ -50,6 +78,16 @@
 			<detail>Développement de sites internes sous symfony 1.4</detail>
 			<detail>Mise en place des déclarations CNIL et de la charte informatique</detail>
 		</details>
+		<tags>
+			<tag>Symfony 1.4</tag>
+			<tag>PHP 5</tag>
+			<tag>Javascript</tag>
+			<tag>JQuery</tag>
+			<tag>script shell</tag>
+			<tag>Revue de code</tag>
+			<tag>Management</tag>
+			<tag>Mac OS</tag>
+		</tags>
 	</experience>
 
 	<experience>
@@ -64,6 +102,16 @@
 			<detail>Développement Back en PHP 5 objet sous un framework interne</detail>
 			<detail>Developpement Front</detail>
 		</details>
+		<tags>
+			<tag>KWO</tag>
+			<tag>PHP 5</tag>
+			<tag>xHTML</tag>
+			<tag>CSS</tag>
+			<tag>Javascript</tag>
+			<tag>Prototype</tag>
+			<tag>Scriptaculous</tag>
+			<tag>script shell</tag>
+		</tags>
 	</experience>
 
 	<experience>
@@ -77,6 +125,14 @@
 			<detail>Participation aux choix techniques</detail>
 			<detail>Administration des serveurs linux</detail>
 		</details>
+		<tags>
+			<tag>PHP 4</tag>
+			<tag>xHTML</tag>
+			<tag>CSS</tag>
+			<tag>Javascript</tag>
+			<tag>Mootools</tag>
+			<tag>script shell</tag>
+		</tags>
 	</experience>
 
 	<experience>
@@ -89,6 +145,10 @@
 			<detail>Gestion d'une centaine de poste informatique</detail>
 			<detail>Développement en ASP</detail>
 		</details>
+		<tags>
+			<tag>PHP 4</tag>
+			<tag>ASP.NET</tag>
+			<tag>CSS</tag>
+		</tags>
 	</experience>
-
 </experiences>
