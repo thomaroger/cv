@@ -43,3 +43,7 @@ html, body {
 .credit {
     text-align: center;
 }
+
+h3.muted:hover {
+    color: #555555;
+}
