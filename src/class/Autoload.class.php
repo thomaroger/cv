@@ -18,9 +18,12 @@ class Autoload
   {
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Request.class.php');
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Error.class.php');
+      $this->autoloadAnotherFile(WEBROOT.'/src/class/Cache.class.php');
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Context.class.php');
       $this->autoloadAnotherFile(WEBROOT.'/src/class/Controller.class.php');
+
       $this->autoloadAnotherFile(WEBROOT.'/src/utils/XMLParser.class.php');
+
       require_once(WEBROOT.'/src/class/App.class.php');
   }
 
@@ -35,7 +38,7 @@ class Autoload
       $actionController->action();
       $app = App::getInstance();
       $this->autoloadAnotherFile($template, $app);
-    }else{
+    } else {
       header("HTTP/1.0 404 Not Found");
       require_once(WEBROOT.'/src/templates/404.php');
     }
@@ -44,7 +47,7 @@ class Autoload
   public function autoloadAnotherFile($path, $app = null)
   {
       if (file_exists($path)) {
-        if(!empty($app)) {
+        if (!empty($app)) {
           $ctx = $app->getContext();
           $err = $app->getError();
         }
