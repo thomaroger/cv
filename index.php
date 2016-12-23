@@ -5,7 +5,7 @@
 
   $app->checkAsset();
   if (!$app->isAsset()) {
-	$app->handleHeader();
-	$app->handleContent();
-	$app->handleFooter();
+    $app->handleHeader();
+    $app->handleContent();
+    $app->handleFooter();
   }
