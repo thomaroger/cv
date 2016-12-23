@@ -1,4 +1,3 @@
-<?php require_once('menuTemplate.php'); ?>
 <?php foreach ($ctx->xml as $k => $experience) : ?>
     <div class="span12">
         <div class="thumbnail">

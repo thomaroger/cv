@@ -48,13 +48,12 @@ class App
     }
   }
 
-  public function checkAsset()
-  {
+  public function checkAsset(){
     $url = parse_url("http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
     $this->path = explode('/' ,$url['path']);
 
     $lastPath = array_slice($this->path, -1, 1);
-    if (preg_match('/.js$/', $lastPath[0], $match)
+    if (preg_match('/.js$/', $lastPath[0], $match) 
         || preg_match('/.css$/', $lastPath[0], $match)
         || preg_match('/.png$/', $lastPath[0], $match)
         || preg_match('/.xml$/', $lastPath[0], $match)) {
@@ -65,64 +64,51 @@ class App
   public function handleContent()
   {
     $count = count($this->path);
-    try {
+    try{
       if ($count == 3) {
         $this->autoload->autoloadAction($this->path[1], $this->path[2]);
       } else {
         $this->autoload->autoloadAction(APP_DEFAULT, !empty($this->path[1]) ? $this->path[1] : ACTION_DEFAULT);
       }
-    } catch (RuntimeException $e) {
+    }catch(RuntimeException $e){
       echo $e->getMessage();
     }
   }
 
-  public function handleAssets($match)
-  {
+  public function handleAssets($match){
     $this->setAsset(true);
     $method = "render".ucfirst(str_replace('.', '', $match[0]));
     $this->$method();
   }
 
-  public function setCache()
-  {
-      $cache = Cache::getInstance();
-      $cache->setHeaders();
-  }
-
-  public function renderJs()
-  {
+  public function renderJs(){
     header('Content-type: text/javascript');
     readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
   }
-
-  public function renderCss()
-  {
+  
+  public function renderCss(){
     header('Content-type: text/css');
     readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
   }
 
-  public function renderPng()
-  {
+  public function renderPng(){
     header('Content-type: image/png');
     readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
   }
 
-  public function renderXml()
-  {
+  public function renderXml(){
     header('Content-type: application/xml');
     readfile(WEBROOT.$_SERVER['SCRIPT_URL']);
   }
 
-  public function setAsset($asset)
-  {
+  public function setAsset($asset){
     $this->isAsset = $asset;
   }
 
-  public function isAsset()
-  {
+  public function isAsset(){
     return $this->isAsset;
   }
-
+  
   public function getContext()
   {
       return $this->context;

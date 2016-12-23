@@ -1,9 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <experiences>
+	 <experience>
+        <begin>Septembre 2016</begin>
+        <ending></ending>
+        <position>Responsable Etude et Developpement</position>
+        <company>I@D Holding</company>
+        <location>Lieusaint</location>
+        <details>
+            <detail>Chiffrage et aide à la conception des nouveaux projets internationaux</detail>
+            <detail>Entretien des futurs collaborateurs</detail>
+            <detail>Décision dans les choix techniques</detail>
+            <detail>Gestion des mises en production</detail>
+            <detail>Gestion de la production</detail>
+            <detail>Gestion de l'infrastructure</detail>
+            <detail>Gestion de l'architecture technique</detail>
+            <detail>Mise en place de l'industrialisation des développements</detail>
+            <detail>Mise en place de process et d'outils permettant une meilleure qualité</detail>
+            <detail>Planification et Gestion des projets d'automatisation</detail>
+            <detail>Mise en place des KPIs pour superviser la production des équipes</detail>
+            <detail>Mise en place des KPIs pour les différents COPIL / CODIR</detail>
+            <detail>Gestion d'un pôle de développeurs de 20 developpeurs internes / prestataires</detail>
+            <detail>Gestion d'un pôle de développeurs de 5 developpeurs en outsourcing</detail>
+            <detail>Gestion des formations techniques et manageriales</detail>
+            <detail>Assistance sur l'organisation du service IT</detail>
+            <detail>Organisation de l'animation technique (Coding Game, Atelier, Formation)</detail>
+            <detail>Participation lors de la mise en place de la méthodologie SCRUM</detail>
+            <detail>Création de la roadmap technique</detail>
+            <detail>Assisntance sur la creation de la roadmap fonctionnelle</detail>
+            <detail>Assistance à la MOA</detail>
+        </details>
+        <tags>
+            <tag>Symfony 2.x</tag>
+            <tag>KPIs</tag>
+            <tag>Pilotage</tag>
+            <tag>Organisation</tag>
+            <tag>Supervision</tag>
+            <tag>Management</tag>
+            <tag>Scrum</tag>
+            <tag>Scrum Master</tag>
+            <tag>Mac OS</tag>
+            <tag>Linux</tag>
+        </tags>
+    </experience>
+    <experience>
+        <begin>Octobre 2015</begin>
+        <ending>Aout 2016</ending>
+        <position>Chef d'équipe, Référent Technique</position>
+        <company>I@D Holding</company>
+        <location>Lieusaint</location>
+        <details>
+            <detail>Prise de décision dans les choix techniques</detail>
+            <detail>Etude de la faisabilité technique d'une demande</detail>
+            <detail>Chiffrage et aide à la conception des nouveaux projets</detail>
+            <detail>Entretien des futurs collaborateurs</detail>
+            <detail>Encadrement technique des développeurs</detail>
+            <detail>Support technique auprès des développeurs</detail>
+            <detail>Revues de code</detail>
+            <detail>Gestion des mises en production</detail>
+            <detail>Garantit la qualité du projet sur la durée</detail>
+            <detail>Respect des normes et des standards</detail>
+            <detail>Développement de gros projet sous symfony  2</detail>
+            <detail>Mise en place de tests unitaires et fonctionnels</detail>
+            <detail>Organisation de l'animation technique (Coding Game, Atelier, Formation)</detail>
+            <detail>Encadrement d'une équipe de 5 personnes</detail>
+            <detail>Participation lors de la mise en place de la méthodologie SCRUM</detail>
+            <detail>Mise en place de l'industrialisation des développements</detail>
+            <detail>Mise en place de process et d'outils permettant une meilleure qualité</detail>
+            <detail>Création de la roadmap technique</detail>
+        </details>
+        <tags>
+            <tag>Symfony 2.x</tag>
+            <tag>PHP 5</tag>
+            <tag>Angular</tag>
+            <tag>ruby</tag>
+            <tag>script shell</tag>
+            <tag>Javascript</tag>
+            <tag>Revue de code</tag>
+            <tag>Management</tag>
+            <tag>Scrum</tag>
+            <tag>Scrum Master</tag>
+            <tag>Mac OS</tag>
+            <tag>Linux</tag>
+        </tags>
+    </experience>
+
+	<experience>
+		<begin>Septembre 2013</begin>
+		<ending>Septembre 2015</ending>
+		<position>Développeur Référent</position>
+		<company>Adfab Connect</company>
+		<location>Lieusaint</location>
+		<details>
+			<detail>Prise de décision dans les choix techniques</detail>
+			<detail>Etude de la faisabilité technique d'une demande</detail>
+			<detail>Chiffrage et aide à la conception des nouveaux projets</detail>
+			<detail>Entretien technique des futurs collaborateurs</detail>
+			<detail>Encadrement technique des développeurs</detail>
+			<detail>Support technique auprès des développeurs</detail>
+			<detail>Revues de code</detail>
+			<detail>Gestion des mises en production</detail>
+			<detail>Garantit la qualité du projet sur la durée</detail>
+			<detail>Respect des normes et des standards</detail>
+			<detail>Développement de gros projet sous symfony  2 / zend framework 2 / Angular</detail>
+			<detail>Mise en place de tests unitaires et fonctionnels</detail>
+			<detail>Organisation de l'animation technique (Coding Game, Atelier)</detail>
+		</details>
+		<tags>
+			<tag>Symfony 2.x</tag>
+			<tag>Zend 2.x</tag>
+			<tag>PHP 5</tag>
+			<tag>Angular</tag>
+			<tag>ruby</tag>
+			<tag>script shell</tag>
+			<tag>Javascript</tag>
+			<tag>JQuery</tag>
+			<tag>Revue de code</tag>
+			<tag>Management</tag>
+			<tag>Scrum</tag>
+			<tag>Windows Seven</tag>
+			<tag>Linux</tag>
+		</tags>
+	</experience>
 
 	<experience>
 		<begin>Octobre 2011</begin>
-		<ending></ending>
+		<ending>Aout 2013</ending>
 		<position>Développeur Référent</position>
 		<company>e-TF1</company>
 		<location>Boulogne Billancourt</location>
