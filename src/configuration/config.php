@@ -1,5 +1,6 @@
 <?php
 //define ('WEBROOT', '/Library/WebServer/Documents/WorkSpace_Web/pronostics');
+// define ('WEBROOT', '/var/local/webroot/cv');
 define ('WEBROOT', '/homez.20/thomarog/www/cv');
 
 // Configuration des templates de headers et de footer
