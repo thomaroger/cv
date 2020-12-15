@@ -1,6 +1,6 @@
 <?php
-//define ('WEBROOT', '/Users/troger/webroot/CV');
-define ('WEBROOT', '/home/bas/app_0cf0439a-a8cb-4640-add1-0badf887d35c/');
+define ('WEBROOT', '/Users/troger/webroot/CV');
+//define ('WEBROOT', '/home/bas/app_0cf0439a-a8cb-4640-add1-0badf887d35c/');
 
 // Configuration des templates de headers et de footer
 define ('COMMONS_HEADER', WEBROOT.'/src/templates/header.php');
