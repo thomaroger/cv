@@ -18,7 +18,7 @@
 			           <a href="/others" class="brand">Loisirs</a>
 			          </li>
 		        	</ul>
-		        	<p class="muted credit">Copyright <?php echo date('Y'); ?> / <a href="http://www.thomaroger.fr">thomaroger.fr</a></p>
+		        	<p class="muted credit">Copyright <?php echo date('Y'); ?> / <a href="https://thomaroger.cleverapps.io/">thomaroger.cleverapps.io</a></p>
 			    
 	        	</div>
 		    </div>
