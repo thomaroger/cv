@@ -1,4 +1,5 @@
 <?php
+use \Mailjet\Resources;
 
 class contactController extends Controller
 {
@@ -52,9 +53,30 @@ class contactController extends Controller
 	     ';
 
 	    if(!empty($nom)) {
-			mail(CONTACT_EMAIL, CONTACT_SUBJECT, $text, $headers))
-			$this->getError()->setError(0, "Un email a été envoyé.", Error::LOG_NOTICE);
-		}
 
+	    	$mj = new \Mailjet\Client(getenv('MJ_APIKEY_PUBLIC'), getenv('MJ_APIKEY_PRIVATE'),true,['version' => 'v3.1']);
+			$body = [
+			    'Messages' => [
+			        [
+			            'From' => [
+			                'Email' => $email,
+			            ],
+			            'To' => [
+			                [
+			                    'Email' => CONTACT_EMAIL,
+			                ]
+			            ],
+			            'Subject' => CONTACT_SUBJECT,
+			            'HTMLPart' => $text
+			        ]
+			    ]
+			];
+			$response = $mj->post(Resources::$Email, ['body' => $body]);
+			if($response->success()) {
+				$this->getError()->setError(0, "Un email a été envoyé.", Error::LOG_NOTICE);
+			} else {
+				$this->getError()->setError(0, "Un problème technique est survenu. Veuillez réessayer plus tard." , Error::LOG_ERROR);
+			}
+		}
     }
 }
