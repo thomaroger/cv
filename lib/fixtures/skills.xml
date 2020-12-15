@@ -226,6 +226,18 @@
 			<skin>warning</skin>
 			<actual>true</actual>
 		</skill>
+		<skill>
+			<name>KPIs</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
+		<skill>
+			<name>Pilotage des équipes</name>
+			<level>Intermédiaire</level>
+			<skin>warning</skin>
+			<actual>true</actual>
+		</skill>
 	</group>
 
 </skills>
