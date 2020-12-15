@@ -1,5 +1,4 @@
 <?php
-//define ('WEBROOT', '/Library/WebServer/Documents/WorkSpace_Web/pronostics');
 // define ('WEBROOT', '/var/local/webroot/cv');
 define ('WEBROOT', '/home/bas/app_0cf0439a-a8cb-4640-add1-0badf887d35c/');
 
