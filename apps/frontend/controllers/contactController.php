@@ -55,7 +55,7 @@ class contactController extends Controller
 			if (mail(CONTACT_EMAIL, CONTACT_SUBJECT, $text, $headers)) {
 				$this->getError()->setError(0, "Un email a été envoyé.", Error::LOG_NOTICE);
 			} else{
-				$this->getError()->setError(0, "Un problème technique est survenu. Veuillez réessayer plus tard." , Error::LOG_ERROR);
+				$this->getError()->setError(0, error_get_last()['message'] , Error::LOG_ERROR);
 			}
 		}
 
