@@ -4,7 +4,7 @@
 	<group name="Programmation">
 	
 		<skill>
-			<name>Symfony 2.x</name>
+			<name>Symfony 2.x / 4.x</name>
 			<level>Avancé</level>
 			<skin>success</skin>
 			<actual>true</actual>
@@ -206,7 +206,7 @@
 
 	<group name="Méthodes">
 		<skill>
-			<name>Scrum</name>
+			<name>Agile (Kanban/ Scrum)</name>
 			<level>Avancé</level>
 			<skin>success</skin>
 			<actual>true</actual>

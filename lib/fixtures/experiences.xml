@@ -1,42 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <experiences>
-	 <experience>
-        <begin>Septembre 2016</begin>
+    <experience>
+        <begin>Octobre 2019</begin>
         <ending></ending>
-        <position>Responsable Etude et Developpement</position>
-        <company>I@D Holding</company>
+        <position>Responsable des Etudes</position>
+        <company>I@D Digital</company>
         <location>Lieusaint</location>
         <details>
-            <detail>Chiffrage et aide à la conception des nouveaux projets internationaux</detail>
+           <detail>Management d'une équipe de 12 personnes comprenant des architectes, des administrations systèmes, des DBAs (internes et externes)</detail>
             <detail>Entretien des futurs collaborateurs</detail>
-            <detail>Décision dans les choix techniques</detail>
-            <detail>Gestion des mises en production</detail>
+            <detail>Gestion et organisation des mises en production</detail>
             <detail>Gestion de la production</detail>
             <detail>Gestion de l'infrastructure</detail>
             <detail>Gestion de l'architecture technique</detail>
-            <detail>Mise en place de l'industrialisation des développements</detail>
+            <detail>Gestion de l'industrialisation des développements</detail>
+            <detail>Création d'une roadmap technique sur 2-3 ans</detail>
             <detail>Mise en place de process et d'outils permettant une meilleure qualité</detail>
-            <detail>Planification et Gestion des projets d'automatisation</detail>
-            <detail>Mise en place des KPIs pour superviser la production des équipes</detail>
-            <detail>Mise en place des KPIs pour les différents COPIL / CODIR</detail>
-            <detail>Gestion d'un pôle de développeurs de 20 developpeurs internes / prestataires</detail>
-            <detail>Gestion d'un pôle de développeurs de 5 developpeurs en outsourcing</detail>
-            <detail>Gestion des formations techniques et manageriales</detail>
-            <detail>Assistance sur l'organisation du service IT</detail>
-            <detail>Organisation de l'animation technique (Coding Game, Atelier, Formation)</detail>
-            <detail>Participation lors de la mise en place de la méthodologie SCRUM</detail>
-            <detail>Création de la roadmap technique</detail>
-            <detail>Assisntance sur la creation de la roadmap fonctionnelle</detail>
+            <detail>Planification et Gestion des projets d'automatisation pour automatiser des déploiements sur un environnement type AWS</detail>
+            <detail>Mise en place des KPIs pour les CODIR, COSTRAT</detail>
             <detail>Assistance à la MOA</detail>
+            <detail>Assistance sur la création de la roadmap fonctionnelle</detail>
+            <detail>Gestion des formations techniques et des plans de carrière</detail>
+            <detail>Gestion d’un budget de 3,8 M (MS incluse)</detail>
+            <detail>Suivi (technique, fonctionnel) des prestataires pour les projets aux forfaits avec des ESNs (Acensi, Open)</detail>
+            <detail>Adaptation de la méthode vers une méthode en cycle en V (engagement) pour certains projets de migration</detail>
         </details>
         <tags>
-            <tag>Symfony 2.x</tag>
+            <tag>Symfony 2.x, Symfony 4.x</tag>
             <tag>KPIs</tag>
             <tag>Pilotage</tag>
             <tag>Organisation</tag>
             <tag>Supervision</tag>
             <tag>Management</tag>
-            <tag>Scrum</tag>
+            <tag>Agile (Kanban, Scrum)</tag>
+            <tag>Scrum Master</tag>
+            <tag>Mac OS</tag>
+            <tag>Linux</tag>
+        </tags>
+    </experience>
+	 <experience>
+        <begin>Septembre 2016</begin>
+        <ending>Septembre 2019</ending>
+        <position>Responsable Etude et Developpement</position>
+        <company>I@D International</company>
+        <location>Lieusaint, Paris, Casablanca</location>
+        <details>
+           <detail>Management d'une équipe allant jusqu'à 48 personnes comprenant des architectes, des administrations systèmes, des DB, des développeurs (internes et externes) réparties sur 2 sites  (Casablanca - Lieusaint)</detail>
+            <detail>Mise en place d'évaluation 360 pour les suivis des équipes</detail>
+            <detail>Mise en place de l'organisation de travail avec de l'outsourcing</detail>
+            <detail>Mise en place de l'agile de type scrum et kanban au sein des équipes techniques</detail>
+            <detail>Mise en place du matriciel ( 3 types de responsabilités)</detail>
+            <detail>Entretien des futurs collaborateurs</detail>
+            <detail>Gestion et organisation des mises en production</detail>
+            <detail>Gestion de la production</detail>
+            <detail>Gestion de l'infrastructure</detail>
+            <detail>Gestion de l'architecture technique</detail>
+            <detail>Mise en place l'industrialisation des développements (GitFlow, Intégration Continue, Agile)</detail>
+            <detail>Création d'une roadmap technique</detail>
+            <detail>Mise en place de process et d'outils permettant une meilleure qualité (Intégration Continue, Code Review, Peer Programming)</detail>
+            <detail>Mise en place des KPIs pour les CODIR, COSTRAT, COPIL</detail>
+            <detail>Mise en place des KPIs pour superviser la production des équipes</detail>
+            <detail>Assistance à la MOA</detail>
+            <detail>Assistance sur la création de la roadmap fonctionnelle</detail>
+            <detail>Gestion des formations techniques, managériales et des plans de carrière</detail>
+            <detail>Chiffrage et aide à la conception des nouveaux projets internationaux</detail>
+            <detail>Assistance sur l'organisation du service IT</detail>
+            <detail>Organisation de l'animation technique (Coding Game, Atelier, Formation)</detail>
+            <detail>Pilotage de la production des équipes de production</detail>
+            <detail>Suivi du projet RGPD et de certains projets internets</detail>
+            <detail>Changement d'hébergeur et d'hébergement pour le SI International</detail>
+            <detail>Gestion d’un budget de 350 K (MS non incluse)</detail>
+        </details>
+        <tags>
+            <tag>Symfony 2.x, Symfony 4.x</tag>
+            <tag>KPIs</tag>
+            <tag>Pilotage</tag>
+            <tag>Organisation</tag>
+            <tag>Supervision</tag>
+            <tag>Management</tag>
+            <tag>Agile (Kanban, Scrum)</tag>
             <tag>Scrum Master</tag>
             <tag>Mac OS</tag>
             <tag>Linux</tag>

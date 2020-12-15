@@ -36,7 +36,7 @@ class App
   public function handleHeader()
   {
     if (file_exists(COMMONS_HEADER)) {
-      $path = $_SERVER['PATH_INFO'];
+      $path = $_SERVER['REQUEST_URI'];
       require_once(COMMONS_HEADER);
     }
   }
