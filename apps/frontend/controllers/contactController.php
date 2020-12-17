@@ -59,7 +59,7 @@ class contactController extends Controller
 			    'Messages' => [
 			        [
 			            'From' => [
-			                'Email' => $email,
+			                'Email' => CONTACT_EMAIL,
 			            ],
 			            'To' => [
 			                [
