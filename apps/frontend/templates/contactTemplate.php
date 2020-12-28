@@ -18,7 +18,7 @@ if(!empty($message)) : ?>
         	<h3>Prise de contact</h3>
         	<div class="row-fluid">
 	        	<div class="span12">
-	        		<form class="well form-horizontal" method="post">
+	        		<form class="well form-horizontal" method="post" id="contact-form">
 		        		<div class="control-group">
 				            <label for="email" class="control-label">Email :</label>
 				            <div class="controls">
@@ -45,7 +45,7 @@ if(!empty($message)) : ?>
 			          	</div>
 
 			          	<div class="form-actions">
-				        	<button class="btn btn-primary pull-right" type="submit">Envoyer</button>
+				        	<button class="btn btn-primary pull-right g-recaptcha" data-sitekey="6Lfl3BcaAAAAAG6ypz0S9uzvgANyRaaLxCzDmuI7" data-callback='onSubmit' data-action='submit'>Envoyer</button>
 				        </div>
 				    </form>
 	        	</div>
@@ -53,6 +53,12 @@ if(!empty($message)) : ?>
         </div>
     </div>
 </div>
+
+<script>
+   function onSubmit(token) {
+     document.getElementById("contact-form").submit();
+   }
+ </script>
 
 
 

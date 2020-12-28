@@ -71,6 +71,7 @@ class contactController extends Controller
 			        ]
 			    ]
 			];
+
 			$response = $mj->post(Resources::$Email, ['body' => $body]);
 			if($response->success()) {
 				$this->getError()->setError(0, "Un email a été envoyé.", Error::LOG_NOTICE);

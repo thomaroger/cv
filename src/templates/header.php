@@ -3,16 +3,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Thomas ROGER</title>
-
     <link rel="stylesheet" type="text/css" href="/web/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/web/css/prez.css" />
-
-    <script type="text/javascript" src="/web/jquery/jquery.js"></script>
-    <script type="text/javascript" src="/web/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/web/js/prez.js"></script>
-
     <meta name="robots" content="all, index, follow" />
-
+    <link rel="canonical" href="http://cv.thomaroger.fr<?php echo $path?>" />
 </head>
 <body>
 

@@ -35,5 +35,10 @@
 			})();
 
 			</script>
+
+			<script type="text/javascript" src="/web/jquery/jquery.js"></script>
+    		<script type="text/javascript" src="/web/bootstrap/js/bootstrap.js"></script>
+   			<script type="text/javascript" src="/web/js/prez.js"></script>
+			<script src="https://www.google.com/recaptcha/api.js"></script>
 	</body>
 </html>
