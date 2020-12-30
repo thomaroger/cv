@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://cv.thomaroger.fr/</loc>
+  <loc>https://cv.thomaroger.fr/</loc>
 </url>
 <url>
-  <loc>http://cv.thomaroger.fr/experiences</loc>
+  <loc>https://cv.thomaroger.fr/experiences</loc>
 </url>
 <url>
-  <loc>http://cv.thomaroger.fr/skills</loc>
+  <loc>https://cv.thomaroger.fr/skills</loc>
 </url>
 <url>
-  <loc>http://cv.thomaroger.fr/training</loc>
+  <loc>https://cv.thomaroger.fr/training</loc>
 </url>
 <url>
-  <loc>http://cv.thomaroger.fr/others</loc>
+  <loc>https://cv.thomaroger.fr/others</loc>
 </url>
 <url>
-  <loc>http://cv.thomaroger.fr/contact</loc>
+  <loc>https://cv.thomaroger.fr/contact</loc>
 </url>
 
 </urlset>
