@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/web/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="/web/css/prez.css" />
     <meta name="robots" content="all, index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://cv.thomaroger.fr<?php echo $path?>" />
 </head>
 <body>
