@@ -22,7 +22,7 @@ if($err->getLevel() == Error::LOG_ERROR) {
                   </button>
                 </div>
             <?php endif; ?>
-        	<form>
+        	<form method="post" id="contact-form">
 			  <div class="form-group">
 				<label for="email" class="control-label">Email :</label>
 			    <input type="email" class="form-control" type="text" name="contact[email]" id="email" placeholder="exemple@domaine.com" required>
