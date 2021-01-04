@@ -42,7 +42,7 @@ if($err->getLevel() == Error::LOG_ERROR) {
 			  </div>
 			  
 			  <div class="form-actions">
-	        	<button class="btn btn-primary pull-right" data-sitekey="6Lfl3BcaAAAAAG6ypz0S9uzvgANyRaaLxCzDmuI7" data-callback='onSubmit' data-action='submit'>Envoyer</button>
+	        	<button class="btn btn-primary pull-right g-recaptcha" data-sitekey="6Lfl3BcaAAAAAG6ypz0S9uzvgANyRaaLxCzDmuI7" data-callback='onSubmit' data-action='submit'>Envoyer</button>
 	        </div>
 			</form>
     	</div>
