@@ -36,7 +36,7 @@ class Autoload
       $app = App::getInstance();
       $this->autoloadAnotherFile($template, $app);
     }else{
-      header("HTTP/1.0 404 Not Found");
+      @header("HTTP/1.0 404 Not Found");
       require_once(WEBROOT.'/src/templates/404.php');
     }
   }
