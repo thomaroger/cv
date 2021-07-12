@@ -53,7 +53,7 @@
               <p class="mb-1"><i class="fas fa-car"></i> permis B</p>
             </div>
             <div href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-              <p class="mb-1"><i class="fas fa-globe"></i> Saint Pierre du Perray, France</p>
+              <p class="mb-1"><i class="fas fa-globe"></i> Bogève, France</p>
             </div>
             <div href="#" class="list-group-item list-group-item-action flex-column align-items-start list-group-item-light">
               <div class="d-flex w-100 justify-content-between">
